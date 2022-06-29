@@ -2,6 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+@layer utilities{
+  .text-big{
+    @apply text-3xl;
+  }
+  .text-h1{
+    @apply text-2xl;
+  }
+  .text-h2{
+    @apply text-xl;
+  }
+  .text-h3{
+    @apply text-lg;
+  }
+  .text-normal{
+    @apply text-base;
+  }
+  .text-small{
+    @apply text-sm;
+  }
+  .text-smallest{
+    @apply text-xs;
+  }
+
+  @media screen and (min-width: 968px) {
+    .text-big{
+      @apply text-4xl;
+    }
+    .text-h1{
+      @apply text-4xl;
+    }
+    .text-h2{
+      @apply text-2xl;
+    }
+    .text-h3{
+      @apply text-xl;
+    }
+    .text-normal{
+      @apply text-lg;
+    }
+    .text-small{
+      @apply text-base;
+    }
+    .text-smallest{
+      @apply text-sm;
+    }
+  }
+}
+
+
 @layer components {
 
   /* ======================== REUSE COMPONENTS ================== */
@@ -14,28 +65,32 @@
   }
 
   .glass {
-    @apply h-[70%];
     background: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.28);
   }
 
+
   /* ============================= NAV SECTION =================== */
   .nav__link {
-    @apply text-sm mb-4 font-semibold hover:text-primary flex flex-col cursor-pointer;
+    @apply text-small mb-4 font-semibold hover:text-primary flex flex-col cursor-pointer;
   }
 
   .nav__link-md {
-    @apply text-sm mx-4 hover:text-primary cursor-pointer;
+    @apply text-small mx-4 hover:text-primary cursor-pointer;
   }
 
   .nav__icons {
-    @apply text-xl hover:text-primary font-bold cursor-pointer;
+    @apply text-h2 hover:text-primary font-medium cursor-pointer;
   }
 
   .toggle__transition {
     @apply transition-all ease-out duration-500;
+  }
+
+  .nav__scroll{
+    @apply shadow-lg bg-dark transition-all duration-300;
   }
 
   /* ============================= HERO SECTION ===================== */
@@ -46,6 +101,19 @@
   }
 
   .hero__button {
-    @apply py-1 px-8 border-2 border-white mt-4 cursor-pointer;
+    @apply py-0.5 px-8 border-2 border-white mt-4 cursor-pointer text-small lg:px-12;
   }
+
+  .heroswiper__container{
+    @apply w-full h-full relative;
+  }
+
+  .heroswiper{
+    @apply h-80 max-w-xs rounded-xl md:h-96 max-w-md;
+  }
+}
+
+/* ============================ Swiper Components============== */
+.swiper-slide{
+  aspect-ratio: 3/4;
 }

@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useWindowScrollPositions } from "./components/GetScrollPosition";
 
 function Nav() {
   const [toggle, setToggle] = React.useState(false)
+  const {scrollX, scrollY} = useWindowScrollPositions()
 
   function toggleHandler() {
     setToggle((prev) => {
@@ -11,7 +13,7 @@ function Nav() {
   }
 
   return (
-    <nav className="fixed py-4 w-full bg-transparent shadow-lg items-center top-0 z-50">
+    <nav className={`fixed ${scrollY > 0 ? "nav__scroll" : "bg-transparent"} py-4 w-full items-center top-0 z-50`}>
       <div className="layout flex justify-between text-white items-center">
         <div className="font-semibold">TheValhalla</div>
         <ul className="hidden md:flex items-center">
