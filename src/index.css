@@ -60,12 +60,20 @@
     @apply max-w-[1240px] w-[90%] ml-auto mr-auto 3xl:max-w-[1536px] font-poppins;
   }
 
+  .section{
+    @apply w-full text-white
+  }
+
+  .section__title{
+    @apply text-h2 py-2 px-12 border-b-2 border-r-2 border-primary font-medium rounded-2xl mb-16 w-fit mx-auto;
+  }
+
   .text__diff {
     @apply text-primary
   }
 
   .glass {
-    background: rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.28);
@@ -82,7 +90,7 @@
   }
 
   .nav__icons {
-    @apply text-h2 hover:text-primary font-medium cursor-pointer;
+    @apply text-h2 hover:text-primary font-normal cursor-pointer;
   }
 
   .toggle__transition {
@@ -90,7 +98,7 @@
   }
 
   .nav__scroll{
-    @apply shadow-lg bg-dark transition-all duration-300;
+    @apply shadow-sm shadow-primary bg-dark transition-all duration-300;
   }
 
   /* ============================= HERO SECTION ===================== */
@@ -109,11 +117,26 @@
   }
 
   .heroswiper{
-    @apply h-80 max-w-xs rounded-xl md:h-96 max-w-md;
+    @apply h-80 max-w-xs rounded-xl md:h-96;
+  }
+
+  /* =========================== NEWS SECTION ============================= */
+
+  .newsswiper{
+    @apply w-full xl:w-[90%];
+  }
+
+  .news__card{
+    @apply text-small font-light;
+  }
+
+  .newscard__button{
+    @apply text-small bg-primary py-2 px-4 rounded-full w-fit flex items-center gap-x-2 transition-all duration-500 ease-out hover:gap-x-4 hover:bg-primary_hover cursor-pointer;
+  }
+
+  .swiper-pagination-bullet.swiper-pagination-bullet-active{
+    @apply bg-primary;
   }
 }
 
 /* ============================ Swiper Components============== */
-.swiper-slide{
-  aspect-ratio: 3/4;
-}
