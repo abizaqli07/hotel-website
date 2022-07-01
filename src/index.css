@@ -52,6 +52,18 @@
   }
 }
 
+@layer utilities {
+  .aboutglass.headerglass__active{
+    @apply w-full h-full rounded-none;
+  }
+  .headercontent.headercontent__active{
+    @apply translate-y-3/4 md:translate-y-2/4 lg:translate-x-[35vw] xl:translate-x-[30vw];
+  }
+  .aboutbox__container.aboutbox__container-active{
+    @apply -translate-y-1/2;
+  }
+}
+
 
 @layer components {
 
@@ -74,6 +86,13 @@
 
   .glass {
     background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+  }
+
+  .glass__primary {
+    background: rgba(157, 78, 221, 0.15);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.28);
@@ -109,7 +128,7 @@
   }
 
   .hero__button {
-    @apply py-0.5 px-8 border-2 border-white mt-4 cursor-pointer text-small lg:px-12;
+    @apply py-0.5 px-8 border-2 border-white mt-4 cursor-pointer text-small lg:px-12 transition-all duration-500 hover:bg-white hover:text-black;
   }
 
   .heroswiper__container{
@@ -136,6 +155,13 @@
 
   .swiper-pagination-bullet.swiper-pagination-bullet-active{
     @apply bg-primary;
+  }
+
+  /* =========================== ABOUT PAGE =================================== */
+  .aboutheader {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.089), rgba(0, 0, 0, 0.8)),
+        url(./assets/wall1.jpg) top center no-repeat;
+    background-size: cover;
   }
 }
 

@@ -38,15 +38,15 @@ function Nav() {
         <div className="layout relative">
           <div className="absolute right-0 top-0" onClick={toggleHandler}><i class="uil uil-times nav__icons"></i></div>
           <ul className="flex w-full justify-between pt-12 px-4 mb-4">
-            <li className="nav__link">
+            <li className="nav__link" onClick={toggleHandler}>
               <i class="uil uil-estate nav__icons"></i>
               <Link to="/">Home</Link>
             </li>
-            <li className="nav__link">
+            <li className="nav__link" onClick={toggleHandler}>
               <i class="uil uil-book nav__icons"></i>
               <Link to="/book">Book</Link>
             </li>
-            <li className="nav__link">
+            <li className="nav__link" onClick={toggleHandler}>
               <i class="uil uil-users-alt nav__icons"></i>
               <Link to="/about">About Us</Link>
             </li>
