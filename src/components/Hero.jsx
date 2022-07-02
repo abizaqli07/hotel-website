@@ -13,7 +13,7 @@ function Hero() {
       <div className="glass__primary absolute h-[70%] w-full rounded-b-2xl mb-8 lg:w-1/2 lg:h-screen lg:rounded-none -z-0"/>
       <div className="layout mb-24">
         <div className="relative z-10 pt-28 text-center flex flex-col gap-y-1 lg:text-left lg:gap-y-4 lg:pt-[30%] lg:w-[47%] xl:pt-[20%]">
-          <div className="text__diff text-normal">Choose Your Favorite</div>
+          <div className="text__diff text-4xl font-tangerin">Choose Your Favorite</div>
           <div className="text-big font-bold">Hotels and Enjoy</div>
           <div className="text-small font-extralight"><span className="text__diff">12</span> Hotels with more than haundred rooms and exclusive service with <span className="text__diff">100K+</span> testimonials from various customer who trust our service</div>
           <div className="flex justify-center gap-x-4 mb-8 lg:justify-start">

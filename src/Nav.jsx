@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useWindowScrollPositions } from "./components/GetScrollPosition";
+import hotelLogo from "./assets/hotelLogo.png"
 
 function Nav() {
   const [toggle, setToggle] = React.useState(false)
@@ -15,7 +16,7 @@ function Nav() {
   return (
     <nav className={`fixed ${scrollY > 0 ? "nav__scroll" : "bg-transparent"} py-4 w-full items-center top-0 z-50`}>
       <div className="layout flex justify-between text-white items-center">
-        <div className="font-semibold">TheValhalla</div>
+        <div className="font-semibold flex items-baseline gap-2 text__diff"><img className="w-5 h-8" src={hotelLogo}/>The Valhalla</div>
         <ul className="hidden md:flex items-center">
           <li className="nav__link-md">
             <Link to="/">Home</Link>

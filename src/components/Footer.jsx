@@ -8,7 +8,7 @@ function Footer() {
           <div>
             <div className="text-normal font-semibold mb-4">THE VALHALLA</div>
             <div><span className="text__diff">12</span> Hotels with more than haundred rooms and exclusive service with <span className="text__diff">100K+</span> testimonials from various customer who trust our service.</div>
-            <div className="w-fit py-2 px-8 mt-4 bg-dark rounded-full cursor-pointer">Book Now</div>
+            <div className="w-fit py-2 px-8 mt-4 bg-dark rounded-full cursor-pointer"><a href="/book">Book Now</a></div>
           </div>
           <div className="text-left flex flex-col gap-y-4 lg:text-right">
             <div className="text-normal font-semibold mb-2">Contact Us</div>
