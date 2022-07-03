@@ -10,7 +10,7 @@ function Hero() {
 
   return (
     <div className="hero w-full min-h-screen text-white pb-4 lg:max-h-screen relative">
-      <div className="glass__primary absolute h-[70%] w-full rounded-b-2xl mb-8 lg:w-1/2 lg:h-screen lg:rounded-none -z-0"/>
+      <div className="glass absolute h-[70%] w-full rounded-b-2xl mb-8 lg:w-1/2 lg:h-screen lg:rounded-none -z-0"/>
       <div className="layout mb-24">
         <div className="relative z-10 pt-28 text-center flex flex-col gap-y-1 lg:text-left lg:gap-y-4 lg:pt-[30%] lg:w-[47%] xl:pt-[20%]">
           <div className="text__diff text-4xl font-tangerin">Choose Your Favorite</div>

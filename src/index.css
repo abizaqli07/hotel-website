@@ -92,7 +92,7 @@
   }
 
   .glass__primary {
-    background: rgba(157, 78, 221, 0.15);
+    background: rgba(255, 183, 3, 0.25);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.28);

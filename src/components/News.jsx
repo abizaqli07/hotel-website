@@ -5,7 +5,7 @@ function News(){
   return(
     <div className="section mt-40">
       <div className="layout">
-        <div className="section__title">News</div>
+        <div className="section__title">Reviews</div>
         <NewsSwiper/>
       </div>
     </div>
