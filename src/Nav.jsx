@@ -19,13 +19,13 @@ function Nav() {
         <div className="font-semibold flex items-baseline gap-2 text__diff"><img className="w-5 h-8" src={hotelLogo}/>The Valhalla</div>
         <ul className="hidden md:flex items-center">
           <li className="nav__link-md">
-            <Link to="/">Home</Link>
+            <Link to="hotel-website/">Home</Link>
           </li>
           <li className="nav__link-md">
-            <Link to="/book">Book</Link>
+            <Link to="hotel-website/book">Book</Link>
           </li>
           <li className="nav__link-md">
-            <Link to="/about">About Us</Link>
+            <Link to="hotel-website/about">About Us</Link>
           </li>
         </ul>
         <div className="hidden md:flex items-center gap-x-4">
@@ -41,15 +41,15 @@ function Nav() {
           <ul className="flex w-full justify-between pt-12 px-4 mb-4">
             <li className="nav__link" onClick={toggleHandler}>
               <i class="uil uil-estate nav__icons"></i>
-              <Link to="/">Home</Link>
+              <Link to="hotel-website/">Home</Link>
             </li>
             <li className="nav__link" onClick={toggleHandler}>
               <i class="uil uil-book nav__icons"></i>
-              <Link to="/book">Book</Link>
+              <Link to="hotel-website/book">Book</Link>
             </li>
             <li className="nav__link" onClick={toggleHandler}>
               <i class="uil uil-users-alt nav__icons"></i>
-              <Link to="/about">About Us</Link>
+              <Link to="hotel-website/about">About Us</Link>
             </li>
           </ul>
           <div className="flex items-center justify-center px-4 gap-4">
