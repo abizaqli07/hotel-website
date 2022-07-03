@@ -17,7 +17,7 @@ function AboutMain() {
 
           <div className="relative mt-20 text-center max-w-xl mx-auto lg:col-start-2 lg:row-start-1 lg:text-left">
             <div className="text-h2 mb-8">The Valhalla Hotels</div>
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga delectus dicta natus nobis alias mollitia, esse laudantium, ducimus incidunt nostrum facere corrupti magnam expedita repellendus pariatur fugiat reiciendis est, sequi praesentium! Soluta labore nihil corrupti voluptatibus, harum amet non rem ex repellendus deserunt, necessitatibus consequatur error enim libero iste in! Magnam culpa, exercitationem fuga iste dicta aspernatur laboriosam voluptatibus facilis!</div>
+            <div>The Valhalla Hotels are hotels designed to cater to all work-related needs. Our main motivation in building this hotel is as a comfortable place with various supporting facilities for those of you who are always working hard and busy with work. like heaven for workaholics who are ready to fulfill your wishes in terms of the workplace</div>
           </div>
 
         </div>

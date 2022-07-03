@@ -85,7 +85,7 @@
   }
 
   .glass {
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 183, 3, 0.25);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.28);
@@ -160,7 +160,7 @@
   /* =========================== ABOUT PAGE =================================== */
   .aboutheader {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.089), rgba(0, 0, 0, 0.8)),
-        url(./assets/wall1.jpg) top center no-repeat;
+        url(./assets/wall3.jpg) top center no-repeat;
     background-size: cover;
   }
 

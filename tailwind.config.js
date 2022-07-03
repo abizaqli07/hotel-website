@@ -13,9 +13,9 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: "#9D4EDD",
-        primary_hover: "#5A189A",
-        dark: "#110e1b",
+        primary: "#EEBC1D",
+        primary_hover: "#FFB11A",
+        dark: "#0C0800",
         nav: "#060A0E"
       },
       fontFamily: {

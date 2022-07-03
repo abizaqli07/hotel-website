@@ -1,10 +1,9 @@
 import React from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCoverflow, Autoplay, Pagination } from "swiper";
-import fac1 from "../../assets/fac1.jpg"
-import fac2 from "../../assets/fac2.jpg"
-import fac3 from "../../assets/fac3.jpg"
-import fac4 from "../../assets/fac4.jpg"
+import news1 from "../../assets/news1.jpg"
+import news2 from "../../assets/news2.jpg"
+
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -47,7 +46,7 @@ function NewsSwiper() {
         <SwiperSlide>
           <div className="news__card mx-auto flex flex-col glass rounded-xl overflow-hidden sm:grid sm:grid-cols-2 sm:max-h-72 md:flex md:flex-col md:max-h-fit  xl:grid xl:grid-cols-2 xl:max-h-[21rem]">
             <div className="border-b-2 rounded-xl overflow-hidden border-primary max-h-60 sm:max-h-full sm:border-b-transparent sm:border-r-2 md:max-h-60 md:border-b-2 md:border-r-transparent xl:max-h-full xl:border-b-transparent xl:border-r-2">
-              <img className="object-cover min-h-full" src={fac1} />
+              <img className="object-cover min-h-full" src={news1} />
             </div>
             <div className="p-8 flex flex-col gap-y-4">
               <div className="text-normal font-semibold">News Today</div>
@@ -59,7 +58,7 @@ function NewsSwiper() {
         <SwiperSlide>
           <div className="news__card mx-auto flex flex-col glass rounded-xl overflow-hidden sm:grid sm:grid-cols-2 sm:max-h-72 md:flex md:flex-col md:max-h-fit  xl:grid xl:grid-cols-2 xl:max-h-[21rem]">
             <div className="border-b-2 rounded-xl overflow-hidden border-primary max-h-60 sm:max-h-full sm:border-b-transparent sm:border-r-2 md:max-h-60 md:border-b-2 md:border-r-transparent xl:max-h-full xl:border-b-transparent xl:border-r-2">
-              <img className="object-cover min-h-full" src={fac2} />
+              <img className="object-cover min-h-full" src={news2} />
             </div>
             <div className="p-8 flex flex-col gap-y-4">
               <div className="text-normal font-semibold">News Today</div>
@@ -71,7 +70,7 @@ function NewsSwiper() {
         <SwiperSlide>
           <div className="news__card mx-auto flex flex-col glass rounded-xl overflow-hidden sm:grid sm:grid-cols-2 sm:max-h-72 md:flex md:flex-col md:max-h-fit  xl:grid xl:grid-cols-2 xl:max-h-[21rem]">
             <div className="border-b-2 rounded-xl overflow-hidden border-primary max-h-60 sm:max-h-full sm:border-b-transparent sm:border-r-2 md:max-h-60 md:border-b-2 md:border-r-transparent xl:max-h-full xl:border-b-transparent xl:border-r-2">
-              <img className="object-cover min-h-full" src={fac3} />
+              <img className="object-cover min-h-full" src={news1} />
             </div>
             <div className="p-8 flex flex-col gap-y-4">
               <div className="text-normal font-semibold">News Today</div>
@@ -83,7 +82,7 @@ function NewsSwiper() {
         <SwiperSlide>
           <div className="news__card mx-auto flex flex-col glass rounded-xl overflow-hidden sm:grid sm:grid-cols-2 sm:max-h-72 md:flex md:flex-col md:max-h-fit  xl:grid xl:grid-cols-2 xl:max-h-[21rem]">
             <div className="border-b-2 rounded-xl overflow-hidden border-primary max-h-60 sm:max-h-full sm:border-b-transparent sm:border-r-2 md:max-h-60 md:border-b-2 md:border-r-transparent xl:max-h-full xl:border-b-transparent xl:border-r-2">
-              <img className="object-cover min-h-full" src={fac4} />
+              <img className="object-cover min-h-full" src={news2} />
             </div>
             <div className="p-8 flex flex-col gap-y-4">
               <div className="text-normal font-semibold">News Today</div>
