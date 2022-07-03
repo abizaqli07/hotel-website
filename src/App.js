@@ -10,9 +10,9 @@ function App() {
     <Router>
       <Nav />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/book" element={<Book />} />
-        <Route path="/about" element={<About />} />
+        <Route path="hotel-website/" element={<Home />} />
+        <Route path="hotel-website/book" element={<Book />} />
+        <Route path="hotel-website/about" element={<About />} />
       </Routes>
     </Router>
   );
